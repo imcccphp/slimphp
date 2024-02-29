@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "imccc/slim",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imcccphp/slim.git",
+                "reference": "97d2ea4a007ca69402db428521841bf4e254f569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imcccphp/slim/zipball/97d2ea4a007ca69402db428521841bf4e254f569",
+                "reference": "97d2ea4a007ca69402db428521841bf4e254f569",
+                "shasum": ""
+            },
+            "time": "2023-05-02T19:17:24+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Imccc\\Slim\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sam",
+                    "email": "sam@imccc.cc"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/imcccphp/slim/issues",
+                "source": "https://github.com/imcccphp/slim/tree/main"
+            },
+            "install-path": "../imccc/slim"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

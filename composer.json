@@ -1,0 +1,32 @@
+{
+    "name": "imccc/slimphp",
+    "description": "the new slim framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "slimphp",
+        "ORM"
+    ],
+    "homepage": "https://www.imccc.cc/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "sam",
+            "email": "sam@imccc.cc"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "imccc/slim": ">=1.0.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "scripts": {}
+}
